@@ -1,6 +1,35 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Meeting reminders fire at an exact time (src/background/
+         meetingReminders.ts). USE_EXACT_ALARM is granted at install on
+         Android 13+, and Google Play allows it for calendar apps (declared
+         in the Play Console). Android 12 has only SCHEDULE_EXACT_ALARM,
+         which it grants by default; react-native-background-fetch already
+         declares that one. -->
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+
+    <!-- react-native-blob-util (used to save "Export my data" to Downloads)
+         asks for broad storage access on every Android version. Saving to
+         Downloads needs no permission on Android 10+ (MediaStore), and only
+         WRITE_EXTERNAL_STORAGE before that — so cap it at Android 9 and drop
+         the rest. (WAKE_LOCK and ACCESS_NETWORK_STATE, which it also lists,
+         stay: WorkManager needs them for the background notification job.) -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"
+        tools:replace="android:maxSdkVersion" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"
+        tools:node="remove" />
 
     <application
       android:name=".MainApplication"
@@ -21,6 +50,38 @@
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        <!-- Links from the web app's domain: booking pages and the team
+             invite / password reset emails (routed in App.tsx's linking
+             config). autoVerify makes Android open them here without
+             asking once https://calbook.zecodeek-it.com/.well-known/assetlinks.json
+             lists this app's release signing key; until then they open in
+             the browser unless the user enables them in the app's settings. -->
+        <intent-filter android:autoVerify="true">
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" android:host="calbook.zecodeek-it.com" />
+            <data android:pathPrefix="/e/" />
+            <data android:pathPrefix="/invites/" />
+            <data android:path="/reset-password" />
+        </intent-filter>
+        <!-- The same links as calbook://e/…, calbook://invites/…, for testing
+             without the domain verification. -->
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="calbook" />
+        </intent-filter>
+        <!-- Google Calendar OAuth hand-back: apicalbook's callback redirects
+             here once the browser finishes the consent flow (see
+             GoogleController::oauthResult). -->
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="calbookmobile" android:host="google-calendar-callback" />
         </intent-filter>
       </activity>
     </application>

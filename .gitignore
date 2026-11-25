@@ -32,6 +32,7 @@ local.properties
 *.hprof
 .cxx/
 *.keystore
+*.jks
 !debug.keystore
 .kotlin/
 
@@ -73,3 +74,6 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Copied in by llama.rn on every Android build
+android/app/src/main/assets/ggml-hexagon/

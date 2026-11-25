@@ -92,15 +92,40 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        // The real release key. Its location and passwords come from
+        // ~/.gradle/gradle.properties (outside the repo) — never commit the
+        // keystore or these values:
+        //   CALBOOK_UPLOAD_STORE_FILE=/path/to/calbook-release.keystore
+        //   CALBOOK_UPLOAD_KEY_ALIAS=calbook
+        //   CALBOOK_UPLOAD_STORE_PASSWORD=...
+        //   CALBOOK_UPLOAD_KEY_PASSWORD=...
+        // With Google Play App Signing this is the upload key; Google signs
+        // what users install with its own key (see Play Console → App
+        // integrity), and that one's SHA-256 is what assetlinks.json needs.
+        if (project.hasProperty('CALBOOK_UPLOAD_STORE_FILE')) {
+            release {
+                storeFile file(CALBOOK_UPLOAD_STORE_FILE)
+                storePassword CALBOOK_UPLOAD_STORE_PASSWORD
+                keyAlias CALBOOK_UPLOAD_KEY_ALIAS
+                keyPassword CALBOOK_UPLOAD_KEY_PASSWORD
+            }
+        }
     }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
         }
         release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            if (project.hasProperty('CALBOOK_UPLOAD_STORE_FILE')) {
+                signingConfig signingConfigs.release
+            } else {
+                // No release key on this machine: still build (handy for
+                // trying a release build locally), but with the public debug
+                // key — such a build must never be published or uploaded.
+                logger.warn('CalbookMobile: CALBOOK_UPLOAD_STORE_FILE is not set; ' +
+                        'signing the release build with the DEBUG key. Do not publish it.')
+                signingConfig signingConfigs.debug
+            }
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
         }

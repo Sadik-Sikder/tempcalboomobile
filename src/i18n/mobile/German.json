@@ -1,0 +1,297 @@
+{
+  "MOBILE": {
+    "COMMON": {
+      "BACK": "Zurück",
+      "SAVE_CHANGES": "Änderungen speichern",
+      "OK": "OK",
+      "DONE": "Fertig",
+      "KEEP_EDITING": "Weiter bearbeiten",
+      "DISCARD": "Verwerfen",
+      "REPLACE": "Ersetzen",
+      "CLOSE": "Schließen",
+      "KEEP_IT": "Behalten",
+      "CANNOT_UNDO": "Dies kann nicht rückgängig gemacht werden.",
+      "INVALID_EMAIL_TITLE": "Ungültige E-Mail-Adresse",
+      "DELETE": "Löschen",
+      "UPDATE_FAILED": "Aktualisierung fehlgeschlagen",
+      "DELETE_FAILED": "Löschen fehlgeschlagen",
+      "SAVE_FAILED": "Speichern fehlgeschlagen"
+    },
+    "PROFILE": {
+      "PASSWORD_LABEL": "Passwort",
+      "CHANGE_PHOTO": "Foto ändern",
+      "UPLOADING": "Wird hochgeladen…",
+      "PHOTO_OPEN_FAILED": "Dieses Foto konnte nicht geöffnet werden",
+      "PHOTO_TRY_ANOTHER": "Versuchen Sie ein anderes.",
+      "PHOTO_UNSUPPORTED": "Nicht unterstütztes Foto",
+      "PHOTO_USE_JPG_PNG": "Verwenden Sie ein JPG- oder PNG-Bild.",
+      "PHOTO_TOO_LARGE": "Foto zu groß",
+      "PHOTO_MAX_SIZE": "Das Foto muss kleiner als 2 MB sein."
+    },
+    "NAV": {
+      "MEETINGS": "Meetings"
+    },
+    "PICKERS": {
+      "SELECT_DATE": "Datum auswählen",
+      "SELECT_TIME": "Uhrzeit auswählen"
+    },
+    "TOP_BAR": {
+      "NOTIFICATIONS_UNREAD": "Benachrichtigungen, {{n}} ungelesen"
+    },
+    "PROFILE_MENU": {
+      "EXPORTED_TITLE": "Daten exportiert",
+      "EXPORTED_MESSAGE": "Unter Downloads als {{fileName}} gespeichert.",
+      "EXPORT_FAILED_TITLE": "Export fehlgeschlagen"
+    },
+    "DELETE_ACCOUNT": {
+      "CONFIRM_TEXT": "Dies kann nicht rückgängig gemacht werden. Ihr Konto wird dauerhaft deaktiviert. Wir senden zur Bestätigung einen Bestätigungscode an {{email}}.",
+      "CODE_SENT": "Wir haben einen Bestätigungscode an {{email}} gesendet. Er läuft in 10 Minuten ab.",
+      "CODE_INVALID": "Geben Sie den 6-stelligen Code aus der E-Mail ein.",
+      "SEND_CODE": "Code senden",
+      "DELETE_BUTTON": "Konto löschen",
+      "DELETED_TITLE": "Konto gelöscht"
+    },
+    "REPORT_ISSUE": {
+      "DISCARD_TITLE": "Diese Meldung verwerfen?",
+      "DISCARD_MESSAGE": "Was Sie geschrieben haben, geht verloren.",
+      "IMAGE_OPEN_FAILED": "Dieses Bild konnte nicht geöffnet werden",
+      "IMAGE_UNSUPPORTED": "Nicht unterstütztes Bild",
+      "IMAGE_TYPES": "Verwenden Sie ein JPG-, PNG- oder WebP-Bild.",
+      "IMAGE_TOO_LARGE": "Bild zu groß",
+      "IMAGE_MAX_SIZE": "Der Screenshot muss kleiner als 3 MB sein.",
+      "THANKS": "Danke für Ihre Meldung",
+      "STEPS_PLACEHOLDER": "1. Gehe zu...\n2. Klicke auf...\n3. Beobachte...",
+      "ADD_SCREENSHOT": "+ Screenshot hinzufügen"
+    },
+    "AUTH": {
+      "SIGN_IN": "Anmelden",
+      "SIGN_UP": "Registrieren",
+      "SIGN_IN_SUBTITLE": "Melden Sie sich an, um Ihre Meetings zu verwalten.",
+      "EMAIL_PASSWORD_REQUIRED": "Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.",
+      "PLAY_SERVICES_UNAVAILABLE": "Google Play-Dienste sind auf diesem Gerät nicht verfügbar.",
+      "FORGOT_PASSWORD_LINK": "Passwort vergessen?",
+      "BACK_TO_SIGN_IN": "Zurück zur Anmeldung",
+      "CHECK_EMAIL_TITLE": "Prüfen Sie Ihre E-Mails",
+      "RESET_LINK_SENT": "Falls ein Konto für {{email}} existiert, haben wir einen Link zum Zurücksetzen Ihres Passworts gesendet. Öffnen Sie ihn auf diesem Telefon oder einem Computer, wählen Sie ein neues Passwort und melden Sie sich dann wieder an.",
+      "RESET_LINK_NOTE": "Nicht erhalten? Prüfen Sie Ihren Spam-Ordner. Konten, die mit „Weiter mit Google“ erstellt wurden, haben kein Passwort – melden Sie sich stattdessen mit Google an.",
+      "SEND_LINK_AGAIN": "Link erneut senden",
+      "RESET_TITLE": "Passwort zurücksetzen",
+      "RESET_SUBTITLE": "Geben Sie die E-Mail-Adresse Ihres Kontos ein. Wir senden Ihnen einen Link, um ein neues Passwort zu wählen.",
+      "CHOOSE_NEW_PASSWORD": "Neues Passwort wählen",
+      "RESET_LINK_INCOMPLETE": "Dieser Link ist unvollständig. Fordern Sie über „Passwort vergessen?“ auf dem Anmeldebildschirm einen neuen an.",
+      "FOR_EMAIL": "Für {{email}}",
+      "PASSWORD_UPDATED_TITLE": "Passwort aktualisiert",
+      "PASSWORD_UPDATE_FAILED": "Passwort konnte nicht aktualisiert werden",
+      "CREATE_ACCOUNT_TITLE": "Konto erstellen",
+      "SIGNUP_SUBTITLE": "Wir senden Ihnen einen Code per E-Mail, um Ihre Adresse zu bestätigen.",
+      "PASSWORD_HINT": "Mindestens 8 Zeichen",
+      "CONFIRM_PASSWORD": "Passwort bestätigen",
+      "CREATE_ACCOUNT": "Konto erstellen",
+      "SIGNUP_CODE_SENT": "Geben Sie den 6-stelligen Code ein, den wir an {{email}} gesendet haben. Er läuft in 10 Minuten ab.",
+      "VERIFICATION_CODE": "Bestätigungscode",
+      "VERIFY_AND_SIGN_UP": "Bestätigen und registrieren",
+      "CHANGE_DETAILS": "Angaben ändern",
+      "SIGN_IN_WITH_NEW_PASSWORD": "Melden Sie sich mit Ihrem neuen Passwort an."
+    },
+    "TEAM_INVITE": {
+      "KICKER": "Team-Einladung",
+      "THE_TEAM": "das Team",
+      "A_TEAM": "Ein Team",
+      "SOMEONE": "Jemand",
+      "INVITED_AS_ADMIN": "{{inviter}} hat Sie eingeladen, als Administrator beizutreten.",
+      "INVITED_AS_MEMBER": "{{inviter}} hat Sie eingeladen, als Mitglied beizutreten.",
+      "ACCEPTED_TITLE": "Einladung angenommen",
+      "JOINED": "Sie sind {{team}} beigetreten.",
+      "JOINED_SIGN_IN": "Sie sind {{team}} beigetreten. Melden Sie sich an, um es zu sehen.",
+      "DECLINED_TITLE": "Einladung abgelehnt"
+    },
+    "TEAMS": {
+      "CREATE_FAILED": "Team konnte nicht erstellt werden",
+      "NEW_LINK": "+ Neu",
+      "CREATE_FIRST": "+ Erstellen Sie Ihr erstes Team"
+    },
+    "TEAM_DETAIL": {
+      "LOAD_FAILED": "Team konnte nicht geladen werden",
+      "RENAME_FAILED": "Team konnte nicht umbenannt werden",
+      "INVITE_SENT_TO": "Eine Einladung wurde an {{email}} gesendet.",
+      "TRANSFER_TEXT": "{{name}} wird Inhaber von {{team}}. Sie werden Administrator.",
+      "TRANSFER": "Übertragen",
+      "TRANSFERRING": "Wird übertragen…",
+      "DELETE_TITLE": "Dieses Team löschen?",
+      "LEAVE_TITLE": "Dieses Team verlassen?",
+      "LEAVE_TEXT": "Sie verlieren den Zugriff auf {{team}}.",
+      "STAY": "Bleiben",
+      "OWNER_ONLY_RENAME": "Nur der Team-Inhaber kann das Team umbenennen.",
+      "INVITE_MEMBER": "Mitglied einladen"
+    },
+    "NOTIFICATIONS": {
+      "LOAD_FAILED": "Benachrichtigungen konnten nicht geladen werden",
+      "EARLIER": "Früher",
+      "EMPTY": "Sie sind auf dem neuesten Stand – noch keine Benachrichtigungen.",
+      "CHANNEL_DESCRIPTION": "Neue Meeting-Anfragen und Terminänderungen",
+      "NEW_COUNT": "{{n}} neue Benachrichtigungen"
+    },
+    "AVAILABILITY": {
+      "LOAD_FAILED": "Verfügbarkeit konnte nicht geladen werden",
+      "FIX_DAYS_TITLE": "Diese Tage korrigieren",
+      "SUBTITLE": "Legen Sie fest, an welchen Tagen und zu welchen Zeiten Sie buchbar sind. {{active}} von 7 Tagen aktiv.",
+      "START": "Beginn",
+      "END": "Ende",
+      "START_TIME": "Startzeit",
+      "END_TIME": "Endzeit",
+      "INVALID_RANGE": "Gültiger Zeitraum erforderlich"
+    },
+    "UPGRADE": {
+      "LOAD_FAILED": "Ihr Tarif konnte nicht geladen werden",
+      "FOOTNOTE": "Tarifänderungen und Zahlungen erfolgen auf der Calbook-Website. Ziehen Sie nach unten, um nach einer Änderung zu aktualisieren.",
+      "YOUR_PLAN": "Ihr Tarif",
+      "EXPIRES_SOON": "Läuft bald ab: {{date}}",
+      "NEXT_PLAN": "Als Nächstes: {{plan}}, ab {{starts}} · bis {{ends}}",
+      "YEARLY_SAVING": "Sparen Sie {{percent}} % gegenüber monatlich"
+    },
+    "PLANS": {
+      "EVENTS_PER_MONTH": "{{n}} Events / Monat",
+      "TASKS_PER_MONTH": "{{n}} Aufgaben / Monat",
+      "ONE_ON_ONE_ONLY": "Nur Einzelmeetings",
+      "SOLO_ONLY": "Nur Einzelnutzung – keine Teammitglieder",
+      "BOOKING_PAGE": "Online-Buchungsseite",
+      "UP_TO_TEAMS": "Bis zu {{n}} Teams",
+      "MEMBERS_PER_TEAM": "{{n}} Mitglieder pro Team",
+      "PRO_MEETING_TYPES": "Typen Einzel, Gruppe, Aufgabe & Termin",
+      "MULTI_HOST": "Buchungen mit mehreren Gastgebern (Round-Robin/kollektiv)"
+    },
+    "EVENTS": {
+      "NO_LINK_TITLE": "Kein Link verfügbar",
+      "LINK_COPIED_TITLE": "Link kopiert",
+      "DELETE_TITLE": "Event löschen?",
+      "THIS_EVENT": "Dieses Event",
+      "NEW_LINK": "+ Neu",
+      "SEARCH_PLACEHOLDER": "Events suchen",
+      "EMPTY": "Keine Events gefunden.",
+      "CREATE_FIRST": "+ Erstellen Sie Ihr erstes Event",
+      "UNTITLED": "Unbenanntes Event",
+      "PENDING_ONE": "{{n}} offene Anfrage",
+      "PENDING_OTHER": "{{n}} offene Anfragen"
+    },
+    "MEETINGS": {
+      "CANCEL_TITLE": "Meeting absagen?",
+      "THIS_MEETING": "Dieses Meeting",
+      "DELETE_TITLE": "Meeting löschen?",
+      "NEW_LINK": "+ Neu",
+      "SEARCH_PLACEHOLDER": "Meetings suchen",
+      "EMPTY": "Keine Meetings gefunden.",
+      "CREATE_FIRST": "+ Erstellen Sie Ihr erstes Meeting",
+      "UNTITLED": "Unbenanntes Meeting",
+      "GUESTS_ONE": "{{n}} Gast",
+      "GUESTS_OTHER": "{{n}} Gäste"
+    },
+    "BOOKINGS": {
+      "CANCEL_TITLE": "Diese Buchung stornieren?",
+      "THIS_BOOKING": "Diese Buchung",
+      "SEARCH_PLACEHOLDER": "Buchungen suchen",
+      "UNTITLED": "Unbenannte Buchung",
+      "HOSTED_BY": "Gastgeber: {{name}}"
+    },
+    "ANALYTICS": {
+      "PERIOD_7D": "7 Tage",
+      "PERIOD_30D": "30 Tage",
+      "PERIOD_90D": "90 Tage",
+      "PERIOD_12M": "12 Monate",
+      "LAST_90_DAYS": "Letzte 90 Tage",
+      "LOAD_FAILED": "Statistiken konnten nicht geladen werden",
+      "SUBTITLE": "So entwickeln sich Ihre Meetings und Buchungen.",
+      "NO_DATA": "Keine Daten.",
+      "MEETINGS_OVER_TIME": "Meetings im Zeitverlauf",
+      "NO_MEETINGS": "Keine Meetings in diesem Zeitraum",
+      "NO_EVENT_TYPES": "Noch keine Event-Typen"
+    },
+    "CALENDAR": {
+      "NO_EVENTS": "Keine Events",
+      "NO_EVENTS_DAY": "Keine Events an diesem Tag.",
+      "UNTITLED": "Ohne Titel",
+      "HOSTING": "Gastgeber",
+      "GUEST": "Gast",
+      "YOU": "Sie"
+    },
+    "DURATION": {
+      "MINUTES": "{{n}} Min."
+    },
+    "FORM": {
+      "TITLE": "Titel",
+      "DESCRIPTION": "Beschreibung",
+      "GUESTS": "Gäste"
+    },
+    "MEETING_FORM": {
+      "DATE_TIME_REQUIRED": "Wählen Sie ein Datum und eine Startzeit",
+      "TIME_ZONE_HINT": "Die Uhrzeit gilt für die unten gewählte Zeitzone.",
+      "DESCRIPTION_PLACEHOLDER": "Worum geht es in diesem Meeting?",
+      "REMINDER": "Erinnerung",
+      "REMINDER_HINT": "Vor Beginn des Meetings."
+    },
+    "EVENT_FORM": {
+      "CREATE_FAILED": "Event konnte nicht erstellt werden",
+      "DESCRIPTION_PLACEHOLDER": "Worum geht es bei diesem Event?",
+      "NO_TEAMS": "Nur Sie – Sie gehören noch keinem Team an.",
+      "NO_MEMBERS": "Keine Teammitglieder gefunden.",
+      "BRAND_NAME_PLACEHOLDER": "Wird auf der Buchungsseite statt Ihres Namens angezeigt",
+      "LOGO_TYPES": "Verwenden Sie ein PNG-, JPEG-, WebP- oder SVG-Bild.",
+      "LOGO_MAX_SIZE": "Das Logo muss kleiner als 200 KB sein. Versuchen Sie ein kleineres oder einfacheres Bild.",
+      "NO_LOGO": "Kein Logo",
+      "CHANGE_IMAGE": "Bild ändern",
+      "CHOOSE_IMAGE": "Bild auswählen",
+      "KEEP_LOGO": "Aktuelles Logo behalten",
+      "LOGO_HINT": "PNG, JPEG, WebP oder SVG, max. 200 KB"
+    },
+    "BOOKING_PAGE": {
+      "LOAD_FAILED": "Dieses Event konnte nicht geladen werden.",
+      "SELECT_TIME_TITLE": "Uhrzeit auswählen",
+      "SELECT_TIME_MESSAGE": "Bitte wählen Sie einen Zeitslot zum Buchen.",
+      "REQUEST_SENT_TITLE": "Anfrage gesendet",
+      "REQUESTS_SENT": "Gesendete Buchungsanfragen: {{n}}",
+      "SOME_FAILED": "Einige Anfragen sind fehlgeschlagen",
+      "BOOKING_FAILED": "Buchung fehlgeschlagen",
+      "GO_BACK": "Zurück",
+      "SENDING": "Ihre Anfrage wird gesendet…",
+      "PENDING_TITLE": "Ausstehende Bestätigung",
+      "PENDING_TEXT": "Eine Meeting-Anfrage wird gerade an den Gastgeber gesendet. Nach der Bestätigung erhalten Sie die Meeting-Details per E-Mail.",
+      "MEETING_TIME": "Meeting-Zeit",
+      "HOST": "Gastgeber",
+      "DESCRIPTION": "Meeting-Beschreibung",
+      "NO_DESCRIPTION": "Keine Beschreibung.",
+      "SELECTED_SLOT": "Gewählter Zeitslot",
+      "SLOTS_TITLE": "Verfügbare Zeitslots auswählen",
+      "NO_DATE": "Kein Datum ausgewählt",
+      "NO_SLOTS": "Keine Zeitslots verfügbar",
+      "CONFIRM_TITLE": "Buchung bestätigen",
+      "CONFIRM_SUBTITLE": "Bitte geben Sie Ihre Daten ein, um das Meeting abzuschließen.",
+      "NAME_LABEL": "Wie heißen Sie?",
+      "NAME_REQUIRED": "Bitte geben Sie den Namen des Gastes ein",
+      "EMAIL_LABEL": "Wie lautet Ihre E-Mail-Adresse?",
+      "EMAIL_REQUIRED": "Bitte geben Sie eine E-Mail-Adresse ein",
+      "PRIVACY_NOTE": "Indem Sie fortfahren, stimmen Sie unserer Datenschutzrichtlinie zu",
+      "CONFIRM_BUTTON": "Buchung bestätigen"
+    },
+    "ENTRY": {
+      "SUBTITLE": "Geben Sie Slug und ID eines Events ein, um seine öffentliche Buchungsseite zu öffnen.",
+      "SLUG_LABEL": "Event-Slug",
+      "SLUG_PLACEHOLDER": "z. B. team-standup",
+      "ID_LABEL": "Event-ID",
+      "ID_PLACEHOLDER": "z. B. 12",
+      "OPEN": "Buchungsseite öffnen",
+      "SIGN_IN_LINK": "Meetings verwalten – anmelden"
+    },
+    "REMINDERS": {
+      "STARTS_IN": "Beginnt in {{when}}, um {{time}}",
+      "MINUTE_ONE": "{{n}} Minute",
+      "MINUTE_OTHER": "{{n}} Minuten",
+      "HOUR_ONE": "{{n}} Stunde",
+      "HOUR_OTHER": "{{n}} Stunden",
+      "DAY_ONE": "{{n}} Tag",
+      "DAY_OTHER": "{{n}} Tagen",
+      "WEEK_ONE": "{{n}} Woche",
+      "WEEK_OTHER": "{{n}} Wochen",
+      "CHANNEL_NAME": "Meeting-Erinnerungen",
+      "CHANNEL_DESCRIPTION": "Vor Beginn Ihrer Meetings, zu der bei jedem Meeting eingestellten Zeit"
+    }
+  }
+}

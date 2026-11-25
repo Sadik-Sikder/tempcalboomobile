@@ -1,0 +1,297 @@
+{
+  "MOBILE": {
+    "COMMON": {
+      "BACK": "Retour",
+      "SAVE_CHANGES": "Enregistrer les modifications",
+      "OK": "OK",
+      "DONE": "Terminé",
+      "KEEP_EDITING": "Continuer la modification",
+      "DISCARD": "Abandonner",
+      "REPLACE": "Remplacer",
+      "CLOSE": "Fermer",
+      "KEEP_IT": "Conserver",
+      "CANNOT_UNDO": "Cette action est irréversible.",
+      "INVALID_EMAIL_TITLE": "E-mail invalide",
+      "DELETE": "Supprimer",
+      "UPDATE_FAILED": "Échec de la mise à jour",
+      "DELETE_FAILED": "Échec de la suppression",
+      "SAVE_FAILED": "Échec de l'enregistrement"
+    },
+    "PROFILE": {
+      "PASSWORD_LABEL": "Mot de passe",
+      "CHANGE_PHOTO": "Changer de photo",
+      "UPLOADING": "Téléversement…",
+      "PHOTO_OPEN_FAILED": "Impossible d'ouvrir cette photo",
+      "PHOTO_TRY_ANOTHER": "Essayez-en une autre.",
+      "PHOTO_UNSUPPORTED": "Photo non prise en charge",
+      "PHOTO_USE_JPG_PNG": "Utilisez une image JPG ou PNG.",
+      "PHOTO_TOO_LARGE": "Photo trop volumineuse",
+      "PHOTO_MAX_SIZE": "La photo doit faire moins de 2 Mo."
+    },
+    "NAV": {
+      "MEETINGS": "Réunions"
+    },
+    "PICKERS": {
+      "SELECT_DATE": "Sélectionner une date",
+      "SELECT_TIME": "Sélectionner une heure"
+    },
+    "TOP_BAR": {
+      "NOTIFICATIONS_UNREAD": "Notifications, {{n}} non lues"
+    },
+    "PROFILE_MENU": {
+      "EXPORTED_TITLE": "Données exportées",
+      "EXPORTED_MESSAGE": "Enregistré dans Téléchargements sous le nom {{fileName}}.",
+      "EXPORT_FAILED_TITLE": "Échec de l'exportation"
+    },
+    "DELETE_ACCOUNT": {
+      "CONFIRM_TEXT": "Cette action est irréversible. Votre compte sera définitivement désactivé. Nous enverrons un code de vérification à {{email}} pour confirmer.",
+      "CODE_SENT": "Nous avons envoyé un code de vérification à {{email}}. Il expire dans 10 minutes.",
+      "CODE_INVALID": "Saisissez le code à 6 chiffres reçu par e-mail.",
+      "SEND_CODE": "Envoyer le code",
+      "DELETE_BUTTON": "Supprimer le compte",
+      "DELETED_TITLE": "Compte supprimé"
+    },
+    "REPORT_ISSUE": {
+      "DISCARD_TITLE": "Abandonner ce signalement ?",
+      "DISCARD_MESSAGE": "Ce que vous avez écrit sera perdu.",
+      "IMAGE_OPEN_FAILED": "Impossible d'ouvrir cette image",
+      "IMAGE_UNSUPPORTED": "Image non prise en charge",
+      "IMAGE_TYPES": "Utilisez une image JPG, PNG ou WebP.",
+      "IMAGE_TOO_LARGE": "Image trop volumineuse",
+      "IMAGE_MAX_SIZE": "La capture d'écran doit faire moins de 3 Mo.",
+      "THANKS": "Merci pour votre signalement",
+      "STEPS_PLACEHOLDER": "1. Aller à...\n2. Cliquer sur...\n3. Observer...",
+      "ADD_SCREENSHOT": "+ Ajouter une capture d'écran"
+    },
+    "AUTH": {
+      "SIGN_IN": "Se connecter",
+      "SIGN_UP": "S'inscrire",
+      "SIGN_IN_SUBTITLE": "Connectez-vous pour gérer vos réunions.",
+      "EMAIL_PASSWORD_REQUIRED": "Saisissez votre e-mail et votre mot de passe.",
+      "PLAY_SERVICES_UNAVAILABLE": "Les services Google Play ne sont pas disponibles sur cet appareil.",
+      "FORGOT_PASSWORD_LINK": "Mot de passe oublié ?",
+      "BACK_TO_SIGN_IN": "Retour à la connexion",
+      "CHECK_EMAIL_TITLE": "Consultez vos e-mails",
+      "RESET_LINK_SENT": "Si un compte existe pour {{email}}, nous avons envoyé un lien pour réinitialiser votre mot de passe. Ouvrez-le sur ce téléphone ou sur un ordinateur pour en choisir un nouveau, puis revenez vous connecter.",
+      "RESET_LINK_NOTE": "Vous ne l'avez pas reçu ? Vérifiez votre dossier de spam. Les comptes créés avec « Continuer avec Google » n'ont pas de mot de passe : connectez-vous plutôt avec Google.",
+      "SEND_LINK_AGAIN": "Renvoyer le lien",
+      "RESET_TITLE": "Réinitialisez votre mot de passe",
+      "RESET_SUBTITLE": "Saisissez l'e-mail de votre compte et nous vous enverrons un lien pour choisir un nouveau mot de passe.",
+      "CHOOSE_NEW_PASSWORD": "Choisissez un nouveau mot de passe",
+      "RESET_LINK_INCOMPLETE": "Ce lien de réinitialisation est incomplet. Demandez-en un nouveau via « Mot de passe oublié ? » sur l'écran de connexion.",
+      "FOR_EMAIL": "Pour {{email}}",
+      "PASSWORD_UPDATED_TITLE": "Mot de passe mis à jour",
+      "PASSWORD_UPDATE_FAILED": "Échec de la mise à jour du mot de passe",
+      "CREATE_ACCOUNT_TITLE": "Créez votre compte",
+      "SIGNUP_SUBTITLE": "Nous vous enverrons un code par e-mail pour vérifier votre adresse.",
+      "PASSWORD_HINT": "Au moins 8 caractères",
+      "CONFIRM_PASSWORD": "Confirmer le mot de passe",
+      "CREATE_ACCOUNT": "Créer un compte",
+      "SIGNUP_CODE_SENT": "Saisissez le code à 6 chiffres envoyé à {{email}}. Il expire dans 10 minutes.",
+      "VERIFICATION_CODE": "Code de vérification",
+      "VERIFY_AND_SIGN_UP": "Vérifier et s'inscrire",
+      "CHANGE_DETAILS": "Modifier les informations",
+      "SIGN_IN_WITH_NEW_PASSWORD": "Connectez-vous avec votre nouveau mot de passe."
+    },
+    "TEAM_INVITE": {
+      "KICKER": "Invitation d'équipe",
+      "THE_TEAM": "l'équipe",
+      "A_TEAM": "Une équipe",
+      "SOMEONE": "Quelqu'un",
+      "INVITED_AS_ADMIN": "{{inviter}} vous a invité à rejoindre l'équipe en tant qu'administrateur.",
+      "INVITED_AS_MEMBER": "{{inviter}} vous a invité à rejoindre l'équipe en tant que membre.",
+      "ACCEPTED_TITLE": "Invitation acceptée",
+      "JOINED": "Vous avez rejoint {{team}}.",
+      "JOINED_SIGN_IN": "Vous avez rejoint {{team}}. Connectez-vous pour la voir.",
+      "DECLINED_TITLE": "Invitation refusée"
+    },
+    "TEAMS": {
+      "CREATE_FAILED": "Échec de la création de l'équipe",
+      "NEW_LINK": "+ Nouvelle",
+      "CREATE_FIRST": "+ Créez votre première équipe"
+    },
+    "TEAM_DETAIL": {
+      "LOAD_FAILED": "Échec du chargement de l'équipe",
+      "RENAME_FAILED": "Échec du renommage de l'équipe",
+      "INVITE_SENT_TO": "Une invitation a été envoyée à {{email}}.",
+      "TRANSFER_TEXT": "{{name}} deviendra propriétaire de {{team}}. Vous deviendrez administrateur.",
+      "TRANSFER": "Transférer",
+      "TRANSFERRING": "Transfert…",
+      "DELETE_TITLE": "Supprimer cette équipe ?",
+      "LEAVE_TITLE": "Quitter cette équipe ?",
+      "LEAVE_TEXT": "Vous perdrez l'accès à {{team}}.",
+      "STAY": "Rester",
+      "OWNER_ONLY_RENAME": "Seul le propriétaire de l'équipe peut la renommer.",
+      "INVITE_MEMBER": "Inviter un membre"
+    },
+    "NOTIFICATIONS": {
+      "LOAD_FAILED": "Échec du chargement des notifications",
+      "EARLIER": "Plus tôt",
+      "EMPTY": "Vous êtes à jour : aucune notification pour l'instant.",
+      "CHANNEL_DESCRIPTION": "Nouvelles demandes de réunion et changements d'horaire",
+      "NEW_COUNT": "{{n}} nouvelles notifications"
+    },
+    "AVAILABILITY": {
+      "LOAD_FAILED": "Échec du chargement des disponibilités",
+      "FIX_DAYS_TITLE": "Corrigez ces jours",
+      "SUBTITLE": "Définissez les jours et heures où l'on peut vous réserver. {{active}} jours actifs sur 7.",
+      "START": "Début",
+      "END": "Fin",
+      "START_TIME": "Heure de début",
+      "END_TIME": "Heure de fin",
+      "INVALID_RANGE": "Plage horaire invalide"
+    },
+    "UPGRADE": {
+      "LOAD_FAILED": "Impossible de charger votre forfait",
+      "FOOTNOTE": "Les changements de forfait et les paiements se font sur le site web de Calbook. Tirez vers le bas pour actualiser après avoir changé de forfait.",
+      "YOUR_PLAN": "Votre forfait",
+      "EXPIRES_SOON": "Expire bientôt : {{date}}",
+      "NEXT_PLAN": "Ensuite : {{plan}}, du {{starts}} au {{ends}}",
+      "YEARLY_SAVING": "Économisez {{percent}} % par rapport au mensuel"
+    },
+    "PLANS": {
+      "EVENTS_PER_MONTH": "{{n}} événements / mois",
+      "TASKS_PER_MONTH": "{{n}} tâches / mois",
+      "ONE_ON_ONE_ONLY": "Réunions individuelles uniquement",
+      "SOLO_ONLY": "Usage individuel uniquement, sans membres d'équipe",
+      "BOOKING_PAGE": "Page de réservation en ligne",
+      "UP_TO_TEAMS": "Jusqu'à {{n}} équipes",
+      "MEMBERS_PER_TEAM": "{{n}} membres par équipe",
+      "PRO_MEETING_TYPES": "Types individuel, groupe, tâche et rendez-vous",
+      "MULTI_HOST": "Réservations multi-hôtes (rotation/collective)"
+    },
+    "EVENTS": {
+      "NO_LINK_TITLE": "Aucun lien disponible",
+      "LINK_COPIED_TITLE": "Lien copié",
+      "DELETE_TITLE": "Supprimer l'événement ?",
+      "THIS_EVENT": "Cet événement",
+      "NEW_LINK": "+ Nouvel",
+      "SEARCH_PLACEHOLDER": "Rechercher des événements",
+      "EMPTY": "Aucun événement trouvé.",
+      "CREATE_FIRST": "+ Créez votre premier événement",
+      "UNTITLED": "Événement sans titre",
+      "PENDING_ONE": "{{n}} demande en attente",
+      "PENDING_OTHER": "{{n}} demandes en attente"
+    },
+    "MEETINGS": {
+      "CANCEL_TITLE": "Annuler la réunion ?",
+      "THIS_MEETING": "Cette réunion",
+      "DELETE_TITLE": "Supprimer la réunion ?",
+      "NEW_LINK": "+ Nouvelle",
+      "SEARCH_PLACEHOLDER": "Rechercher des réunions",
+      "EMPTY": "Aucune réunion trouvée.",
+      "CREATE_FIRST": "+ Créez votre première réunion",
+      "UNTITLED": "Réunion sans titre",
+      "GUESTS_ONE": "{{n}} invité",
+      "GUESTS_OTHER": "{{n}} invités"
+    },
+    "BOOKINGS": {
+      "CANCEL_TITLE": "Annuler cette réservation ?",
+      "THIS_BOOKING": "Cette réservation",
+      "SEARCH_PLACEHOLDER": "Rechercher des réservations",
+      "UNTITLED": "Réservation sans titre",
+      "HOSTED_BY": "Organisé par {{name}}"
+    },
+    "ANALYTICS": {
+      "PERIOD_7D": "7 jours",
+      "PERIOD_30D": "30 jours",
+      "PERIOD_90D": "90 jours",
+      "PERIOD_12M": "12 mois",
+      "LAST_90_DAYS": "90 derniers jours",
+      "LOAD_FAILED": "Échec du chargement des statistiques",
+      "SUBTITLE": "L'évolution de vos réunions et réservations.",
+      "NO_DATA": "Aucune donnée.",
+      "MEETINGS_OVER_TIME": "Réunions au fil du temps",
+      "NO_MEETINGS": "Aucune réunion sur cette période",
+      "NO_EVENT_TYPES": "Aucun type d'événement pour l'instant"
+    },
+    "CALENDAR": {
+      "NO_EVENTS": "Aucun événement",
+      "NO_EVENTS_DAY": "Aucun événement ce jour-là.",
+      "UNTITLED": "Sans titre",
+      "HOSTING": "Organisateur",
+      "GUEST": "Invité",
+      "YOU": "Vous"
+    },
+    "DURATION": {
+      "MINUTES": "{{n}} min"
+    },
+    "FORM": {
+      "TITLE": "Titre",
+      "DESCRIPTION": "Description",
+      "GUESTS": "Invités"
+    },
+    "MEETING_FORM": {
+      "DATE_TIME_REQUIRED": "Choisissez une date et une heure de début",
+      "TIME_ZONE_HINT": "L'heure correspond au fuseau horaire choisi ci-dessous.",
+      "DESCRIPTION_PLACEHOLDER": "De quoi parle cette réunion ?",
+      "REMINDER": "Rappel",
+      "REMINDER_HINT": "Avant le début de la réunion."
+    },
+    "EVENT_FORM": {
+      "CREATE_FAILED": "Échec de la création de l'événement",
+      "DESCRIPTION_PLACEHOLDER": "De quoi parle cet événement ?",
+      "NO_TEAMS": "Vous seul : vous ne faites encore partie d'aucune équipe.",
+      "NO_MEMBERS": "Aucun membre d'équipe trouvé.",
+      "BRAND_NAME_PLACEHOLDER": "Affiché à la place de votre nom sur la page de réservation",
+      "LOGO_TYPES": "Utilisez une image PNG, JPEG, WebP ou SVG.",
+      "LOGO_MAX_SIZE": "Le logo doit faire moins de 200 Ko. Essayez une image plus petite ou plus simple.",
+      "NO_LOGO": "Aucun logo",
+      "CHANGE_IMAGE": "Changer l'image",
+      "CHOOSE_IMAGE": "Choisir une image",
+      "KEEP_LOGO": "Conserver le logo actuel",
+      "LOGO_HINT": "PNG, JPEG, WebP ou SVG, 200 Ko max."
+    },
+    "BOOKING_PAGE": {
+      "LOAD_FAILED": "Impossible de charger cet événement.",
+      "SELECT_TIME_TITLE": "Choisissez un horaire",
+      "SELECT_TIME_MESSAGE": "Veuillez choisir un créneau à réserver.",
+      "REQUEST_SENT_TITLE": "Demande envoyée",
+      "REQUESTS_SENT": "Demandes de réservation envoyées : {{n}}",
+      "SOME_FAILED": "Certaines demandes ont échoué",
+      "BOOKING_FAILED": "Échec de la réservation",
+      "GO_BACK": "Retour",
+      "SENDING": "Envoi de votre demande…",
+      "PENDING_TITLE": "En attente d'approbation",
+      "PENDING_TEXT": "Une demande de réunion est en cours d'envoi à l'organisateur. Une fois approuvée, les détails de la réunion vous seront envoyés par e-mail.",
+      "MEETING_TIME": "Heure de la réunion",
+      "HOST": "Organisateur",
+      "DESCRIPTION": "Description de la réunion",
+      "NO_DESCRIPTION": "Aucune description.",
+      "SELECTED_SLOT": "Créneau sélectionné",
+      "SLOTS_TITLE": "Choisissez un créneau disponible",
+      "NO_DATE": "Aucune date sélectionnée",
+      "NO_SLOTS": "Aucun créneau disponible",
+      "CONFIRM_TITLE": "Confirmez votre réservation",
+      "CONFIRM_SUBTITLE": "Veuillez renseigner vos informations pour finaliser la réunion.",
+      "NAME_LABEL": "Quel est votre nom ?",
+      "NAME_REQUIRED": "Veuillez saisir le nom de l'invité",
+      "EMAIL_LABEL": "Quelle est votre adresse e-mail ?",
+      "EMAIL_REQUIRED": "Veuillez saisir l'e-mail",
+      "PRIVACY_NOTE": "En continuant, vous acceptez notre politique de confidentialité",
+      "CONFIRM_BUTTON": "Confirmer la réservation"
+    },
+    "ENTRY": {
+      "SUBTITLE": "Saisissez le slug et l'identifiant d'un événement pour ouvrir sa page de réservation publique.",
+      "SLUG_LABEL": "Slug de l'événement",
+      "SLUG_PLACEHOLDER": "ex. team-standup",
+      "ID_LABEL": "Identifiant de l'événement",
+      "ID_PLACEHOLDER": "ex. 12",
+      "OPEN": "Ouvrir la page de réservation",
+      "SIGN_IN_LINK": "Gérer vos réunions : se connecter"
+    },
+    "REMINDERS": {
+      "STARTS_IN": "Commence dans {{when}}, à {{time}}",
+      "MINUTE_ONE": "{{n}} minute",
+      "MINUTE_OTHER": "{{n}} minutes",
+      "HOUR_ONE": "{{n}} heure",
+      "HOUR_OTHER": "{{n}} heures",
+      "DAY_ONE": "{{n}} jour",
+      "DAY_OTHER": "{{n}} jours",
+      "WEEK_ONE": "{{n}} semaine",
+      "WEEK_OTHER": "{{n}} semaines",
+      "CHANNEL_NAME": "Rappels de réunion",
+      "CHANNEL_DESCRIPTION": "Avant le début de vos réunions, au moment défini pour chacune"
+    }
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "MOBILE": {
+    "COMMON": {
+      "BACK": "Kembali",
+      "SAVE_CHANGES": "Simpan Perubahan",
+      "OK": "OK",
+      "DONE": "Selesai",
+      "KEEP_EDITING": "Terus menyunting",
+      "DISCARD": "Buang",
+      "REPLACE": "Ganti",
+      "CLOSE": "Tutup",
+      "KEEP_IT": "Simpan",
+      "CANNOT_UNDO": "Tindakan ini tidak boleh dibuat asal.",
+      "INVALID_EMAIL_TITLE": "E-mel tidak sah",
+      "DELETE": "Padam",
+      "UPDATE_FAILED": "Gagal mengemas kini",
+      "DELETE_FAILED": "Gagal memadam",
+      "SAVE_FAILED": "Gagal menyimpan"
+    },
+    "PROFILE": {
+      "PASSWORD_LABEL": "Kata Laluan",
+      "CHANGE_PHOTO": "Tukar foto",
+      "UPLOADING": "Memuat naik…",
+      "PHOTO_OPEN_FAILED": "Tidak dapat membuka foto itu",
+      "PHOTO_TRY_ANOTHER": "Cuba foto lain.",
+      "PHOTO_UNSUPPORTED": "Foto tidak disokong",
+      "PHOTO_USE_JPG_PNG": "Gunakan imej JPG atau PNG.",
+      "PHOTO_TOO_LARGE": "Foto terlalu besar",
+      "PHOTO_MAX_SIZE": "Foto mestilah kurang daripada 2 MB."
+    },
+    "NAV": {
+      "MEETINGS": "Mesyuarat"
+    },
+    "PICKERS": {
+      "SELECT_DATE": "Pilih tarikh",
+      "SELECT_TIME": "Pilih masa"
+    },
+    "TOP_BAR": {
+      "NOTIFICATIONS_UNREAD": "Pemberitahuan, {{n}} belum dibaca"
+    },
+    "PROFILE_MENU": {
+      "EXPORTED_TITLE": "Data dieksport",
+      "EXPORTED_MESSAGE": "Disimpan ke Muat Turun sebagai {{fileName}}.",
+      "EXPORT_FAILED_TITLE": "Eksport gagal"
+    },
+    "DELETE_ACCOUNT": {
+      "CONFIRM_TEXT": "Tindakan ini tidak boleh dibuat asal. Akaun anda akan dinyahaktifkan secara kekal. Kami akan menghantar kod pengesahan ke {{email}} untuk pengesahan.",
+      "CODE_SENT": "Kami telah menghantar kod pengesahan ke {{email}}. Kod tamat tempoh dalam 10 minit.",
+      "CODE_INVALID": "Masukkan kod 6 digit daripada e-mel.",
+      "SEND_CODE": "Hantar kod",
+      "DELETE_BUTTON": "Padam akaun",
+      "DELETED_TITLE": "Akaun dipadam"
+    },
+    "REPORT_ISSUE": {
+      "DISCARD_TITLE": "Buang laporan ini?",
+      "DISCARD_MESSAGE": "Apa yang anda tulis akan hilang.",
+      "IMAGE_OPEN_FAILED": "Tidak dapat membuka imej itu",
+      "IMAGE_UNSUPPORTED": "Imej tidak disokong",
+      "IMAGE_TYPES": "Gunakan imej JPG, PNG atau WebP.",
+      "IMAGE_TOO_LARGE": "Imej terlalu besar",
+      "IMAGE_MAX_SIZE": "Tangkapan skrin mestilah kurang daripada 3 MB.",
+      "THANKS": "Terima kasih atas laporan anda",
+      "STEPS_PLACEHOLDER": "1. Pergi ke...\n2. Klik...\n3. Perhatikan...",
+      "ADD_SCREENSHOT": "+ Tambah tangkapan skrin"
+    },
+    "AUTH": {
+      "SIGN_IN": "Log masuk",
+      "SIGN_UP": "Daftar",
+      "SIGN_IN_SUBTITLE": "Log masuk untuk mengurus mesyuarat anda.",
+      "EMAIL_PASSWORD_REQUIRED": "Masukkan e-mel dan kata laluan anda.",
+      "PLAY_SERVICES_UNAVAILABLE": "Perkhidmatan Google Play tidak tersedia pada peranti ini.",
+      "FORGOT_PASSWORD_LINK": "Lupa kata laluan?",
+      "BACK_TO_SIGN_IN": "Kembali ke log masuk",
+      "CHECK_EMAIL_TITLE": "Semak e-mel anda",
+      "RESET_LINK_SENT": "Jika akaun wujud untuk {{email}}, kami telah menghantar pautan untuk menetapkan semula kata laluan anda. Bukanya pada telefon ini atau mana-mana komputer untuk memilih kata laluan baharu, kemudian kembali dan log masuk.",
+      "RESET_LINK_NOTE": "Tidak menerimanya? Semak folder spam anda. Akaun yang dicipta dengan \"Teruskan dengan Google\" tidak mempunyai kata laluan — log masuk dengan Google sebaliknya.",
+      "SEND_LINK_AGAIN": "Hantar pautan sekali lagi",
+      "RESET_TITLE": "Tetapkan semula kata laluan anda",
+      "RESET_SUBTITLE": "Masukkan e-mel akaun anda dan kami akan menghantar pautan untuk memilih kata laluan baharu.",
+      "CHOOSE_NEW_PASSWORD": "Pilih kata laluan baharu",
+      "RESET_LINK_INCOMPLETE": "Pautan tetapan semula ini tidak lengkap. Minta pautan baharu daripada \"Lupa kata laluan?\" di skrin log masuk.",
+      "FOR_EMAIL": "Untuk {{email}}",
+      "PASSWORD_UPDATED_TITLE": "Kata laluan dikemas kini",
+      "PASSWORD_UPDATE_FAILED": "Gagal mengemas kini kata laluan",
+      "CREATE_ACCOUNT_TITLE": "Cipta akaun anda",
+      "SIGNUP_SUBTITLE": "Kami akan menghantar kod melalui e-mel untuk mengesahkan alamat anda.",
+      "PASSWORD_HINT": "Sekurang-kurangnya 8 aksara",
+      "CONFIRM_PASSWORD": "Sahkan kata laluan",
+      "CREATE_ACCOUNT": "Cipta akaun",
+      "SIGNUP_CODE_SENT": "Masukkan kod 6 digit yang kami hantar ke {{email}}. Kod tamat tempoh dalam 10 minit.",
+      "VERIFICATION_CODE": "Kod pengesahan",
+      "VERIFY_AND_SIGN_UP": "Sahkan dan daftar",
+      "CHANGE_DETAILS": "Tukar butiran",
+      "SIGN_IN_WITH_NEW_PASSWORD": "Log masuk dengan kata laluan baharu anda."
+    },
+    "TEAM_INVITE": {
+      "KICKER": "Jemputan pasukan",
+      "THE_TEAM": "pasukan itu",
+      "A_TEAM": "Sebuah pasukan",
+      "SOMEONE": "Seseorang",
+      "INVITED_AS_ADMIN": "{{inviter}} menjemput anda menyertai sebagai pentadbir.",
+      "INVITED_AS_MEMBER": "{{inviter}} menjemput anda menyertai sebagai ahli.",
+      "ACCEPTED_TITLE": "Jemputan diterima",
+      "JOINED": "Anda telah menyertai {{team}}.",
+      "JOINED_SIGN_IN": "Anda telah menyertai {{team}}. Log masuk untuk melihatnya.",
+      "DECLINED_TITLE": "Jemputan ditolak"
+    },
+    "TEAMS": {
+      "CREATE_FAILED": "Gagal mencipta pasukan",
+      "NEW_LINK": "+ Baharu",
+      "CREATE_FIRST": "+ Cipta pasukan pertama anda"
+    },
+    "TEAM_DETAIL": {
+      "LOAD_FAILED": "Gagal memuatkan pasukan",
+      "RENAME_FAILED": "Gagal menamakan semula pasukan",
+      "INVITE_SENT_TO": "Jemputan telah dihantar ke {{email}}.",
+      "TRANSFER_TEXT": "{{name}} akan menjadi pemilik {{team}}. Anda akan menjadi pentadbir.",
+      "TRANSFER": "Pindah",
+      "TRANSFERRING": "Memindahkan…",
+      "DELETE_TITLE": "Padam pasukan ini?",
+      "LEAVE_TITLE": "Tinggalkan pasukan ini?",
+      "LEAVE_TEXT": "Anda akan kehilangan akses kepada {{team}}.",
+      "STAY": "Kekal",
+      "OWNER_ONLY_RENAME": "Hanya pemilik pasukan boleh menamakan semula pasukan.",
+      "INVITE_MEMBER": "Jemput ahli"
+    },
+    "NOTIFICATIONS": {
+      "LOAD_FAILED": "Gagal memuatkan pemberitahuan",
+      "EARLIER": "Lebih awal",
+      "EMPTY": "Anda sudah dikemas kini — belum ada pemberitahuan.",
+      "CHANNEL_DESCRIPTION": "Permintaan mesyuarat baharu dan perubahan jadual",
+      "NEW_COUNT": "{{n}} pemberitahuan baharu"
+    },
+    "AVAILABILITY": {
+      "LOAD_FAILED": "Gagal memuatkan ketersediaan",
+      "FIX_DAYS_TITLE": "Betulkan hari-hari ini",
+      "SUBTITLE": "Tetapkan hari dan waktu anda boleh ditempah. {{active}} daripada 7 hari aktif.",
+      "START": "Mula",
+      "END": "Tamat",
+      "START_TIME": "Masa mula",
+      "END_TIME": "Masa tamat",
+      "INVALID_RANGE": "Memerlukan julat masa yang sah"
+    },
+    "UPGRADE": {
+      "LOAD_FAILED": "Tidak dapat memuatkan pelan anda",
+      "FOOTNOTE": "Perubahan pelan dan pembayaran diuruskan di laman web Calbook. Tarik ke bawah untuk muat semula selepas menukar pelan anda di sana.",
+      "YOUR_PLAN": "Pelan anda",
+      "EXPIRES_SOON": "Tamat tempoh tidak lama lagi: {{date}}",
+      "NEXT_PLAN": "Seterusnya: {{plan}}, bermula {{starts}} · tamat {{ends}}",
+      "YEARLY_SAVING": "Jimat {{percent}}% berbanding bulanan"
+    },
+    "PLANS": {
+      "EVENTS_PER_MONTH": "{{n}} Acara / bulan",
+      "TASKS_PER_MONTH": "{{n}} Tugasan / bulan",
+      "ONE_ON_ONE_ONLY": "Mesyuarat Satu-dengan-Satu sahaja",
+      "SOLO_ONLY": "Kegunaan sendiri sahaja — tiada ahli pasukan",
+      "BOOKING_PAGE": "Halaman Tempahan Dalam Talian",
+      "UP_TO_TEAMS": "Sehingga {{n}} Pasukan",
+      "MEMBERS_PER_TEAM": "{{n}} Ahli setiap Pasukan",
+      "PRO_MEETING_TYPES": "Jenis Satu-dengan-Satu, Kumpulan, Tugasan & Temu janji",
+      "MULTI_HOST": "Tempahan berbilang hos (bergilir/kolektif)"
+    },
+    "EVENTS": {
+      "NO_LINK_TITLE": "Tiada pautan tersedia",
+      "LINK_COPIED_TITLE": "Pautan disalin",
+      "DELETE_TITLE": "Padam acara?",
+      "THIS_EVENT": "Acara ini",
+      "NEW_LINK": "+ Baharu",
+      "SEARCH_PLACEHOLDER": "Cari acara",
+      "EMPTY": "Tiada acara ditemui.",
+      "CREATE_FIRST": "+ Cipta acara pertama anda",
+      "UNTITLED": "Acara tanpa tajuk",
+      "PENDING_ONE": "{{n}} permintaan belum selesai",
+      "PENDING_OTHER": "{{n}} permintaan belum selesai"
+    },
+    "MEETINGS": {
+      "CANCEL_TITLE": "Batalkan mesyuarat?",
+      "THIS_MEETING": "Mesyuarat ini",
+      "DELETE_TITLE": "Padam mesyuarat?",
+      "NEW_LINK": "+ Baharu",
+      "SEARCH_PLACEHOLDER": "Cari mesyuarat",
+      "EMPTY": "Tiada mesyuarat ditemui.",
+      "CREATE_FIRST": "+ Cipta mesyuarat pertama anda",
+      "UNTITLED": "Mesyuarat tanpa tajuk",
+      "GUESTS_ONE": "{{n}} tetamu",
+      "GUESTS_OTHER": "{{n}} tetamu"
+    },
+    "BOOKINGS": {
+      "CANCEL_TITLE": "Batalkan tempahan ini?",
+      "THIS_BOOKING": "Tempahan ini",
+      "SEARCH_PLACEHOLDER": "Cari tempahan",
+      "UNTITLED": "Tempahan tanpa tajuk",
+      "HOSTED_BY": "Dihoskan oleh {{name}}"
+    },
+    "ANALYTICS": {
+      "PERIOD_7D": "7 hari",
+      "PERIOD_30D": "30 hari",
+      "PERIOD_90D": "90 hari",
+      "PERIOD_12M": "12 bulan",
+      "LAST_90_DAYS": "90 Hari Lepas",
+      "LOAD_FAILED": "Gagal memuatkan analitik",
+      "SUBTITLE": "Prestasi mesyuarat dan tempahan anda.",
+      "NO_DATA": "Tiada data.",
+      "MEETINGS_OVER_TIME": "Mesyuarat mengikut masa",
+      "NO_MEETINGS": "Tiada mesyuarat dalam tempoh ini",
+      "NO_EVENT_TYPES": "Belum ada jenis acara"
+    },
+    "CALENDAR": {
+      "NO_EVENTS": "Tiada acara",
+      "NO_EVENTS_DAY": "Tiada acara untuk hari ini.",
+      "UNTITLED": "Tanpa tajuk",
+      "HOSTING": "Hos",
+      "GUEST": "Tetamu",
+      "YOU": "Anda"
+    },
+    "DURATION": {
+      "MINUTES": "{{n}} min"
+    },
+    "FORM": {
+      "TITLE": "Tajuk",
+      "DESCRIPTION": "Penerangan",
+      "GUESTS": "Tetamu"
+    },
+    "MEETING_FORM": {
+      "DATE_TIME_REQUIRED": "Pilih tarikh dan masa mula",
+      "TIME_ZONE_HINT": "Masa mengikut zon waktu yang dipilih di bawah.",
+      "DESCRIPTION_PLACEHOLDER": "Mesyuarat ini tentang apa?",
+      "REMINDER": "Peringatan",
+      "REMINDER_HINT": "Sebelum mesyuarat bermula."
+    },
+    "EVENT_FORM": {
+      "CREATE_FAILED": "Gagal mencipta acara",
+      "DESCRIPTION_PLACEHOLDER": "Acara ini tentang apa?",
+      "NO_TEAMS": "Anda sahaja — anda belum menyertai mana-mana pasukan.",
+      "NO_MEMBERS": "Tiada ahli pasukan ditemui.",
+      "BRAND_NAME_PLACEHOLDER": "Dipaparkan menggantikan nama anda di halaman tempahan",
+      "LOGO_TYPES": "Gunakan imej PNG, JPEG, WebP atau SVG.",
+      "LOGO_MAX_SIZE": "Logo mestilah kurang daripada 200 KB. Cuba imej yang lebih kecil atau ringkas.",
+      "NO_LOGO": "Tiada logo",
+      "CHANGE_IMAGE": "Tukar imej",
+      "CHOOSE_IMAGE": "Pilih imej",
+      "KEEP_LOGO": "Kekalkan logo semasa",
+      "LOGO_HINT": "PNG, JPEG, WebP atau SVG, maks 200 KB"
+    },
+    "BOOKING_PAGE": {
+      "LOAD_FAILED": "Acara ini tidak dapat dimuatkan.",
+      "SELECT_TIME_TITLE": "Pilih masa",
+      "SELECT_TIME_MESSAGE": "Sila pilih satu slot untuk ditempah.",
+      "REQUEST_SENT_TITLE": "Permintaan dihantar",
+      "REQUESTS_SENT": "Permintaan tempahan dihantar: {{n}}",
+      "SOME_FAILED": "Sesetengah permintaan gagal",
+      "BOOKING_FAILED": "Tempahan gagal",
+      "GO_BACK": "Kembali",
+      "SENDING": "Menghantar permintaan anda…",
+      "PENDING_TITLE": "Menunggu Kelulusan",
+      "PENDING_TEXT": "Permintaan mesyuarat sedang dihantar kepada hos. Setelah diluluskan, butiran mesyuarat akan dikongsi dengan anda melalui e-mel.",
+      "MEETING_TIME": "Masa Mesyuarat",
+      "HOST": "Hos",
+      "DESCRIPTION": "Penerangan Mesyuarat",
+      "NO_DESCRIPTION": "Tiada penerangan.",
+      "SELECTED_SLOT": "Slot Dipilih",
+      "SLOTS_TITLE": "Pilih Slot Masa Tersedia",
+      "NO_DATE": "Tiada tarikh dipilih",
+      "NO_SLOTS": "Tiada slot tersedia",
+      "CONFIRM_TITLE": "Sahkan Tempahan Anda",
+      "CONFIRM_SUBTITLE": "Sila isi butiran anda untuk memuktamadkan mesyuarat.",
+      "NAME_LABEL": "Siapakah nama anda?",
+      "NAME_REQUIRED": "Sila masukkan nama tetamu",
+      "EMAIL_LABEL": "Apakah e-mel anda?",
+      "EMAIL_REQUIRED": "Sila masukkan e-mel",
+      "PRIVACY_NOTE": "Dengan meneruskan, anda bersetuju dengan Dasar Privasi kami",
+      "CONFIRM_BUTTON": "Sahkan Tempahan"
+    },
+    "ENTRY": {
+      "SUBTITLE": "Masukkan slug dan ID acara untuk membuka halaman tempahan awamnya.",
+      "SLUG_LABEL": "Slug acara",
+      "SLUG_PLACEHOLDER": "cth. team-standup",
+      "ID_LABEL": "ID acara",
+      "ID_PLACEHOLDER": "cth. 12",
+      "OPEN": "Buka halaman tempahan",
+      "SIGN_IN_LINK": "Urus mesyuarat anda — log masuk"
+    },
+    "REMINDERS": {
+      "STARTS_IN": "Bermula dalam {{when}}, pada {{time}}",
+      "MINUTE_ONE": "{{n}} minit",
+      "MINUTE_OTHER": "{{n}} minit",
+      "HOUR_ONE": "{{n}} jam",
+      "HOUR_OTHER": "{{n}} jam",
+      "DAY_ONE": "{{n}} hari",
+      "DAY_OTHER": "{{n}} hari",
+      "WEEK_ONE": "{{n}} minggu",
+      "WEEK_OTHER": "{{n}} minggu",
+      "CHANNEL_NAME": "Peringatan mesyuarat",
+      "CHANNEL_DESCRIPTION": "Sebelum mesyuarat anda bermula, pada masa yang ditetapkan untuk setiap mesyuarat"
+    }
+  }
+}

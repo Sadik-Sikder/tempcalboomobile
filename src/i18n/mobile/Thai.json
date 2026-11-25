@@ -1,0 +1,297 @@
+{
+  "MOBILE": {
+    "COMMON": {
+      "BACK": "กลับ",
+      "SAVE_CHANGES": "บันทึกการเปลี่ยนแปลง",
+      "OK": "ตกลง",
+      "DONE": "เสร็จสิ้น",
+      "KEEP_EDITING": "แก้ไขต่อ",
+      "DISCARD": "ละทิ้ง",
+      "REPLACE": "แทนที่",
+      "CLOSE": "ปิด",
+      "KEEP_IT": "เก็บไว้",
+      "CANNOT_UNDO": "การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+      "INVALID_EMAIL_TITLE": "อีเมลไม่ถูกต้อง",
+      "DELETE": "ลบ",
+      "UPDATE_FAILED": "อัปเดตไม่สำเร็จ",
+      "DELETE_FAILED": "ลบไม่สำเร็จ",
+      "SAVE_FAILED": "บันทึกไม่สำเร็จ"
+    },
+    "PROFILE": {
+      "PASSWORD_LABEL": "รหัสผ่าน",
+      "CHANGE_PHOTO": "เปลี่ยนรูปภาพ",
+      "UPLOADING": "กำลังอัปโหลด…",
+      "PHOTO_OPEN_FAILED": "ไม่สามารถเปิดรูปภาพนี้ได้",
+      "PHOTO_TRY_ANOTHER": "ลองเลือกรูปอื่น",
+      "PHOTO_UNSUPPORTED": "ไม่รองรับรูปภาพนี้",
+      "PHOTO_USE_JPG_PNG": "ใช้รูปภาพ JPG หรือ PNG",
+      "PHOTO_TOO_LARGE": "รูปภาพมีขนาดใหญ่เกินไป",
+      "PHOTO_MAX_SIZE": "รูปภาพต้องมีขนาดไม่เกิน 2 MB"
+    },
+    "NAV": {
+      "MEETINGS": "การประชุม"
+    },
+    "PICKERS": {
+      "SELECT_DATE": "เลือกวันที่",
+      "SELECT_TIME": "เลือกเวลา"
+    },
+    "TOP_BAR": {
+      "NOTIFICATIONS_UNREAD": "การแจ้งเตือน ยังไม่ได้อ่าน {{n}} รายการ"
+    },
+    "PROFILE_MENU": {
+      "EXPORTED_TITLE": "ส่งออกข้อมูลแล้ว",
+      "EXPORTED_MESSAGE": "บันทึกไว้ในดาวน์โหลดเป็น {{fileName}} แล้ว",
+      "EXPORT_FAILED_TITLE": "ส่งออกไม่สำเร็จ"
+    },
+    "DELETE_ACCOUNT": {
+      "CONFIRM_TEXT": "การดำเนินการนี้ไม่สามารถย้อนกลับได้ บัญชีของคุณจะถูกปิดใช้งานถาวร เราจะส่งรหัสยืนยันไปที่ {{email}} เพื่อยืนยัน",
+      "CODE_SENT": "เราได้ส่งรหัสยืนยันไปที่ {{email}} แล้ว รหัสจะหมดอายุใน 10 นาที",
+      "CODE_INVALID": "กรอกรหัส 6 หลักจากอีเมล",
+      "SEND_CODE": "ส่งรหัส",
+      "DELETE_BUTTON": "ลบบัญชี",
+      "DELETED_TITLE": "ลบบัญชีแล้ว"
+    },
+    "REPORT_ISSUE": {
+      "DISCARD_TITLE": "ละทิ้งรายงานนี้หรือไม่",
+      "DISCARD_MESSAGE": "สิ่งที่คุณเขียนไว้จะหายไป",
+      "IMAGE_OPEN_FAILED": "ไม่สามารถเปิดรูปภาพนี้ได้",
+      "IMAGE_UNSUPPORTED": "ไม่รองรับรูปภาพนี้",
+      "IMAGE_TYPES": "ใช้รูปภาพ JPG, PNG หรือ WebP",
+      "IMAGE_TOO_LARGE": "รูปภาพมีขนาดใหญ่เกินไป",
+      "IMAGE_MAX_SIZE": "ภาพหน้าจอต้องมีขนาดไม่เกิน 3 MB",
+      "THANKS": "ขอบคุณสำหรับรายงาน",
+      "STEPS_PLACEHOLDER": "1. ไปที่...\n2. คลิก...\n3. สังเกต...",
+      "ADD_SCREENSHOT": "+ เพิ่มภาพหน้าจอ"
+    },
+    "AUTH": {
+      "SIGN_IN": "เข้าสู่ระบบ",
+      "SIGN_UP": "สมัครใช้งาน",
+      "SIGN_IN_SUBTITLE": "เข้าสู่ระบบเพื่อจัดการการประชุมของคุณ",
+      "EMAIL_PASSWORD_REQUIRED": "กรอกอีเมลและรหัสผ่านของคุณ",
+      "PLAY_SERVICES_UNAVAILABLE": "อุปกรณ์นี้ไม่มีบริการ Google Play",
+      "FORGOT_PASSWORD_LINK": "ลืมรหัสผ่าน?",
+      "BACK_TO_SIGN_IN": "กลับไปที่การเข้าสู่ระบบ",
+      "CHECK_EMAIL_TITLE": "ตรวจสอบอีเมลของคุณ",
+      "RESET_LINK_SENT": "หากมีบัญชีสำหรับ {{email}} เราได้ส่งลิงก์สำหรับรีเซ็ตรหัสผ่านไปแล้ว เปิดลิงก์บนโทรศัพท์เครื่องนี้หรือคอมพิวเตอร์เครื่องใดก็ได้เพื่อตั้งรหัสผ่านใหม่ แล้วกลับมาเข้าสู่ระบบ",
+      "RESET_LINK_NOTE": "ไม่ได้รับใช่ไหม ตรวจสอบโฟลเดอร์สแปม บัญชีที่สร้างด้วย \"ดำเนินการต่อด้วย Google\" จะไม่มีรหัสผ่าน โปรดเข้าสู่ระบบด้วย Google แทน",
+      "SEND_LINK_AGAIN": "ส่งลิงก์อีกครั้ง",
+      "RESET_TITLE": "รีเซ็ตรหัสผ่านของคุณ",
+      "RESET_SUBTITLE": "กรอกอีเมลของบัญชีคุณ แล้วเราจะส่งลิงก์สำหรับตั้งรหัสผ่านใหม่ให้",
+      "CHOOSE_NEW_PASSWORD": "ตั้งรหัสผ่านใหม่",
+      "RESET_LINK_INCOMPLETE": "ลิงก์รีเซ็ตนี้ไม่สมบูรณ์ ขอลิงก์ใหม่จาก \"ลืมรหัสผ่าน?\" ในหน้าเข้าสู่ระบบ",
+      "FOR_EMAIL": "สำหรับ {{email}}",
+      "PASSWORD_UPDATED_TITLE": "อัปเดตรหัสผ่านแล้ว",
+      "PASSWORD_UPDATE_FAILED": "อัปเดตรหัสผ่านไม่สำเร็จ",
+      "CREATE_ACCOUNT_TITLE": "สร้างบัญชีของคุณ",
+      "SIGNUP_SUBTITLE": "เราจะส่งรหัสไปทางอีเมลเพื่อยืนยันที่อยู่ของคุณ",
+      "PASSWORD_HINT": "อย่างน้อย 8 ตัวอักษร",
+      "CONFIRM_PASSWORD": "ยืนยันรหัสผ่าน",
+      "CREATE_ACCOUNT": "สร้างบัญชี",
+      "SIGNUP_CODE_SENT": "กรอกรหัส 6 หลักที่เราส่งไปที่ {{email}} รหัสจะหมดอายุใน 10 นาที",
+      "VERIFICATION_CODE": "รหัสยืนยัน",
+      "VERIFY_AND_SIGN_UP": "ยืนยันและสมัครใช้งาน",
+      "CHANGE_DETAILS": "เปลี่ยนรายละเอียด",
+      "SIGN_IN_WITH_NEW_PASSWORD": "เข้าสู่ระบบด้วยรหัสผ่านใหม่ของคุณ"
+    },
+    "TEAM_INVITE": {
+      "KICKER": "คำเชิญเข้าร่วมทีม",
+      "THE_TEAM": "ทีม",
+      "A_TEAM": "ทีม",
+      "SOMEONE": "มีผู้ใช้",
+      "INVITED_AS_ADMIN": "{{inviter}} เชิญคุณเข้าร่วมในฐานะผู้ดูแล",
+      "INVITED_AS_MEMBER": "{{inviter}} เชิญคุณเข้าร่วมในฐานะสมาชิก",
+      "ACCEPTED_TITLE": "ยอมรับคำเชิญแล้ว",
+      "JOINED": "คุณได้เข้าร่วม {{team}} แล้ว",
+      "JOINED_SIGN_IN": "คุณได้เข้าร่วม {{team}} แล้ว เข้าสู่ระบบเพื่อดูทีม",
+      "DECLINED_TITLE": "ปฏิเสธคำเชิญแล้ว"
+    },
+    "TEAMS": {
+      "CREATE_FAILED": "สร้างทีมไม่สำเร็จ",
+      "NEW_LINK": "+ ใหม่",
+      "CREATE_FIRST": "+ สร้างทีมแรกของคุณ"
+    },
+    "TEAM_DETAIL": {
+      "LOAD_FAILED": "โหลดทีมไม่สำเร็จ",
+      "RENAME_FAILED": "เปลี่ยนชื่อทีมไม่สำเร็จ",
+      "INVITE_SENT_TO": "ส่งคำเชิญไปที่ {{email}} แล้ว",
+      "TRANSFER_TEXT": "{{name}} จะเป็นเจ้าของ {{team}} และคุณจะกลายเป็นผู้ดูแล",
+      "TRANSFER": "โอน",
+      "TRANSFERRING": "กำลังโอน…",
+      "DELETE_TITLE": "ลบทีมนี้หรือไม่",
+      "LEAVE_TITLE": "ออกจากทีมนี้หรือไม่",
+      "LEAVE_TEXT": "คุณจะไม่สามารถเข้าถึง {{team}} ได้อีก",
+      "STAY": "อยู่ต่อ",
+      "OWNER_ONLY_RENAME": "เฉพาะเจ้าของทีมเท่านั้นที่เปลี่ยนชื่อทีมได้",
+      "INVITE_MEMBER": "เชิญสมาชิก"
+    },
+    "NOTIFICATIONS": {
+      "LOAD_FAILED": "โหลดการแจ้งเตือนไม่สำเร็จ",
+      "EARLIER": "ก่อนหน้านี้",
+      "EMPTY": "คุณดูครบแล้ว ยังไม่มีการแจ้งเตือน",
+      "CHANNEL_DESCRIPTION": "คำขอการประชุมใหม่และการเปลี่ยนแปลงกำหนดการ",
+      "NEW_COUNT": "การแจ้งเตือนใหม่ {{n}} รายการ"
+    },
+    "AVAILABILITY": {
+      "LOAD_FAILED": "โหลดเวลาว่างไม่สำเร็จ",
+      "FIX_DAYS_TITLE": "แก้ไขวันเหล่านี้",
+      "SUBTITLE": "กำหนดวันและเวลาที่ผู้อื่นจองคุณได้ เปิดใช้งาน {{active}} จาก 7 วัน",
+      "START": "เริ่ม",
+      "END": "สิ้นสุด",
+      "START_TIME": "เวลาเริ่มต้น",
+      "END_TIME": "เวลาสิ้นสุด",
+      "INVALID_RANGE": "ต้องระบุช่วงเวลาที่ถูกต้อง"
+    },
+    "UPGRADE": {
+      "LOAD_FAILED": "ไม่สามารถโหลดแพ็กเกจของคุณได้",
+      "FOOTNOTE": "การเปลี่ยนแพ็กเกจและการชำระเงินทำได้บนเว็บไซต์ Calbook ดึงลงเพื่อรีเฟรชหลังจากเปลี่ยนแพ็กเกจที่นั่น",
+      "YOUR_PLAN": "แพ็กเกจของคุณ",
+      "EXPIRES_SOON": "ใกล้หมดอายุ: {{date}}",
+      "NEXT_PLAN": "ถัดไป: {{plan}} เริ่ม {{starts}} · สิ้นสุด {{ends}}",
+      "YEARLY_SAVING": "ประหยัด {{percent}}% เมื่อเทียบกับรายเดือน"
+    },
+    "PLANS": {
+      "EVENTS_PER_MONTH": "{{n}} อีเวนต์ / เดือน",
+      "TASKS_PER_MONTH": "{{n}} งาน / เดือน",
+      "ONE_ON_ONE_ONLY": "การประชุมแบบตัวต่อตัวเท่านั้น",
+      "SOLO_ONLY": "ใช้งานคนเดียวเท่านั้น ไม่มีสมาชิกทีม",
+      "BOOKING_PAGE": "หน้าการจองออนไลน์",
+      "UP_TO_TEAMS": "สูงสุด {{n}} ทีม",
+      "MEMBERS_PER_TEAM": "{{n}} สมาชิกต่อทีม",
+      "PRO_MEETING_TYPES": "ประเภทตัวต่อตัว กลุ่ม งาน และการนัดหมาย",
+      "MULTI_HOST": "การจองแบบหลายโฮสต์ (หมุนเวียน/ร่วมกัน)"
+    },
+    "EVENTS": {
+      "NO_LINK_TITLE": "ไม่มีลิงก์",
+      "LINK_COPIED_TITLE": "คัดลอกลิงก์แล้ว",
+      "DELETE_TITLE": "ลบอีเวนต์หรือไม่",
+      "THIS_EVENT": "อีเวนต์นี้",
+      "NEW_LINK": "+ ใหม่",
+      "SEARCH_PLACEHOLDER": "ค้นหาอีเวนต์",
+      "EMPTY": "ไม่พบอีเวนต์",
+      "CREATE_FIRST": "+ สร้างอีเวนต์แรกของคุณ",
+      "UNTITLED": "อีเวนต์ไม่มีชื่อ",
+      "PENDING_ONE": "คำขอที่รอดำเนินการ {{n}} รายการ",
+      "PENDING_OTHER": "คำขอที่รอดำเนินการ {{n}} รายการ"
+    },
+    "MEETINGS": {
+      "CANCEL_TITLE": "ยกเลิกการประชุมหรือไม่",
+      "THIS_MEETING": "การประชุมนี้",
+      "DELETE_TITLE": "ลบการประชุมหรือไม่",
+      "NEW_LINK": "+ ใหม่",
+      "SEARCH_PLACEHOLDER": "ค้นหาการประชุม",
+      "EMPTY": "ไม่พบการประชุม",
+      "CREATE_FIRST": "+ สร้างการประชุมแรกของคุณ",
+      "UNTITLED": "การประชุมไม่มีชื่อ",
+      "GUESTS_ONE": "ผู้เข้าร่วม {{n}} คน",
+      "GUESTS_OTHER": "ผู้เข้าร่วม {{n}} คน"
+    },
+    "BOOKINGS": {
+      "CANCEL_TITLE": "ยกเลิกการจองนี้หรือไม่",
+      "THIS_BOOKING": "การจองนี้",
+      "SEARCH_PLACEHOLDER": "ค้นหาการจอง",
+      "UNTITLED": "การจองไม่มีชื่อ",
+      "HOSTED_BY": "จัดโดย {{name}}"
+    },
+    "ANALYTICS": {
+      "PERIOD_7D": "7 วัน",
+      "PERIOD_30D": "30 วัน",
+      "PERIOD_90D": "90 วัน",
+      "PERIOD_12M": "12 เดือน",
+      "LAST_90_DAYS": "90 วันที่ผ่านมา",
+      "LOAD_FAILED": "โหลดข้อมูลวิเคราะห์ไม่สำเร็จ",
+      "SUBTITLE": "ภาพรวมการประชุมและการจองของคุณ",
+      "NO_DATA": "ไม่มีข้อมูล",
+      "MEETINGS_OVER_TIME": "การประชุมตามช่วงเวลา",
+      "NO_MEETINGS": "ไม่มีการประชุมในช่วงนี้",
+      "NO_EVENT_TYPES": "ยังไม่มีประเภทอีเวนต์"
+    },
+    "CALENDAR": {
+      "NO_EVENTS": "ไม่มีอีเวนต์",
+      "NO_EVENTS_DAY": "ไม่มีอีเวนต์ในวันนี้",
+      "UNTITLED": "ไม่มีชื่อ",
+      "HOSTING": "เป็นผู้จัด",
+      "GUEST": "ผู้เข้าร่วม",
+      "YOU": "คุณ"
+    },
+    "DURATION": {
+      "MINUTES": "{{n}} นาที"
+    },
+    "FORM": {
+      "TITLE": "ชื่อ",
+      "DESCRIPTION": "คำอธิบาย",
+      "GUESTS": "ผู้เข้าร่วม"
+    },
+    "MEETING_FORM": {
+      "DATE_TIME_REQUIRED": "เลือกวันที่และเวลาเริ่มต้น",
+      "TIME_ZONE_HINT": "เวลาเป็นไปตามเขตเวลาที่เลือกด้านล่าง",
+      "DESCRIPTION_PLACEHOLDER": "การประชุมนี้เกี่ยวกับอะไร",
+      "REMINDER": "การแจ้งเตือนล่วงหน้า",
+      "REMINDER_HINT": "ก่อนการประชุมเริ่ม"
+    },
+    "EVENT_FORM": {
+      "CREATE_FAILED": "สร้างอีเวนต์ไม่สำเร็จ",
+      "DESCRIPTION_PLACEHOLDER": "อีเวนต์นี้เกี่ยวกับอะไร",
+      "NO_TEAMS": "เฉพาะคุณ คุณยังไม่ได้อยู่ในทีมใด",
+      "NO_MEMBERS": "ไม่พบสมาชิกทีม",
+      "BRAND_NAME_PLACEHOLDER": "แสดงแทนชื่อของคุณในหน้าการจอง",
+      "LOGO_TYPES": "ใช้รูปภาพ PNG, JPEG, WebP หรือ SVG",
+      "LOGO_MAX_SIZE": "โลโก้ต้องมีขนาดไม่เกิน 200 KB ลองใช้รูปภาพที่เล็กหรือเรียบง่ายกว่านี้",
+      "NO_LOGO": "ไม่มีโลโก้",
+      "CHANGE_IMAGE": "เปลี่ยนรูปภาพ",
+      "CHOOSE_IMAGE": "เลือกรูปภาพ",
+      "KEEP_LOGO": "ใช้โลโก้เดิม",
+      "LOGO_HINT": "PNG, JPEG, WebP หรือ SVG ไม่เกิน 200 KB"
+    },
+    "BOOKING_PAGE": {
+      "LOAD_FAILED": "ไม่สามารถโหลดอีเวนต์นี้ได้",
+      "SELECT_TIME_TITLE": "เลือกเวลา",
+      "SELECT_TIME_MESSAGE": "โปรดเลือกช่วงเวลาที่ต้องการจอง",
+      "REQUEST_SENT_TITLE": "ส่งคำขอแล้ว",
+      "REQUESTS_SENT": "ส่งคำขอจองแล้ว {{n}} รายการ",
+      "SOME_FAILED": "คำขอบางรายการไม่สำเร็จ",
+      "BOOKING_FAILED": "จองไม่สำเร็จ",
+      "GO_BACK": "ย้อนกลับ",
+      "SENDING": "กำลังส่งคำขอของคุณ…",
+      "PENDING_TITLE": "รอการอนุมัติ",
+      "PENDING_TEXT": "กำลังส่งคำขอการประชุมไปยังผู้จัด เมื่อได้รับการอนุมัติ รายละเอียดการประชุมจะถูกส่งให้คุณทางอีเมล",
+      "MEETING_TIME": "เวลาการประชุม",
+      "HOST": "ผู้จัด",
+      "DESCRIPTION": "รายละเอียดการประชุม",
+      "NO_DESCRIPTION": "ไม่มีคำอธิบาย",
+      "SELECTED_SLOT": "ช่วงเวลาที่เลือก",
+      "SLOTS_TITLE": "เลือกช่วงเวลาที่ว่าง",
+      "NO_DATE": "ยังไม่ได้เลือกวันที่",
+      "NO_SLOTS": "ไม่มีช่วงเวลาว่าง",
+      "CONFIRM_TITLE": "ยืนยันการจองของคุณ",
+      "CONFIRM_SUBTITLE": "โปรดกรอกข้อมูลของคุณเพื่อยืนยันการประชุม",
+      "NAME_LABEL": "คุณชื่ออะไร",
+      "NAME_REQUIRED": "โปรดกรอกชื่อผู้เข้าร่วม",
+      "EMAIL_LABEL": "อีเมลของคุณคืออะไร",
+      "EMAIL_REQUIRED": "โปรดกรอกอีเมล",
+      "PRIVACY_NOTE": "เมื่อดำเนินการต่อ แสดงว่าคุณยอมรับนโยบายความเป็นส่วนตัวของเรา",
+      "CONFIRM_BUTTON": "ยืนยันการจอง"
+    },
+    "ENTRY": {
+      "SUBTITLE": "กรอก slug และ ID ของอีเวนต์เพื่อเปิดหน้าการจองสาธารณะ",
+      "SLUG_LABEL": "Slug ของอีเวนต์",
+      "SLUG_PLACEHOLDER": "เช่น team-standup",
+      "ID_LABEL": "ID ของอีเวนต์",
+      "ID_PLACEHOLDER": "เช่น 12",
+      "OPEN": "เปิดหน้าการจอง",
+      "SIGN_IN_LINK": "จัดการการประชุมของคุณ — เข้าสู่ระบบ"
+    },
+    "REMINDERS": {
+      "STARTS_IN": "เริ่มในอีก {{when}} เวลา {{time}}",
+      "MINUTE_ONE": "{{n}} นาที",
+      "MINUTE_OTHER": "{{n}} นาที",
+      "HOUR_ONE": "{{n}} ชั่วโมง",
+      "HOUR_OTHER": "{{n}} ชั่วโมง",
+      "DAY_ONE": "{{n}} วัน",
+      "DAY_OTHER": "{{n}} วัน",
+      "WEEK_ONE": "{{n}} สัปดาห์",
+      "WEEK_OTHER": "{{n}} สัปดาห์",
+      "CHANNEL_NAME": "การแจ้งเตือนการประชุม",
+      "CHANNEL_DESCRIPTION": "ก่อนการประชุมเริ่ม ตามเวลาที่ตั้งไว้ในแต่ละการประชุม"
+    }
+  }
+}

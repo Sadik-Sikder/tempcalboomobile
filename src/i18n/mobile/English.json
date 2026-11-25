@@ -1,0 +1,297 @@
+{
+  "MOBILE": {
+    "COMMON": {
+      "BACK": "Back",
+      "SAVE_CHANGES": "Save Changes",
+      "OK": "OK",
+      "DONE": "Done",
+      "KEEP_EDITING": "Keep editing",
+      "DISCARD": "Discard",
+      "REPLACE": "Replace",
+      "CLOSE": "Close",
+      "KEEP_IT": "Keep it",
+      "CANNOT_UNDO": "This cannot be undone.",
+      "INVALID_EMAIL_TITLE": "Invalid email",
+      "DELETE": "Delete",
+      "UPDATE_FAILED": "Failed to update",
+      "DELETE_FAILED": "Failed to delete",
+      "SAVE_FAILED": "Failed to save"
+    },
+    "PROFILE": {
+      "PASSWORD_LABEL": "Password",
+      "CHANGE_PHOTO": "Change photo",
+      "UPLOADING": "Uploading…",
+      "PHOTO_OPEN_FAILED": "Couldn't open that photo",
+      "PHOTO_TRY_ANOTHER": "Try a different one.",
+      "PHOTO_UNSUPPORTED": "Unsupported photo",
+      "PHOTO_USE_JPG_PNG": "Use a JPG or PNG image.",
+      "PHOTO_TOO_LARGE": "Photo too large",
+      "PHOTO_MAX_SIZE": "The photo must be under 2 MB."
+    },
+    "NAV": {
+      "MEETINGS": "Meetings"
+    },
+    "PICKERS": {
+      "SELECT_DATE": "Select date",
+      "SELECT_TIME": "Select time"
+    },
+    "TOP_BAR": {
+      "NOTIFICATIONS_UNREAD": "Notifications, {{n}} unread"
+    },
+    "PROFILE_MENU": {
+      "EXPORTED_TITLE": "Data exported",
+      "EXPORTED_MESSAGE": "Saved to Downloads as {{fileName}}.",
+      "EXPORT_FAILED_TITLE": "Export failed"
+    },
+    "DELETE_ACCOUNT": {
+      "CONFIRM_TEXT": "This can't be undone. Your account will be permanently deactivated. We'll email a verification code to {{email}} to confirm.",
+      "CODE_SENT": "We've sent a verification code to {{email}}. It expires in 10 minutes.",
+      "CODE_INVALID": "Enter the 6-digit code from the email.",
+      "SEND_CODE": "Send code",
+      "DELETE_BUTTON": "Delete account",
+      "DELETED_TITLE": "Account deleted"
+    },
+    "REPORT_ISSUE": {
+      "DISCARD_TITLE": "Discard this report?",
+      "DISCARD_MESSAGE": "What you've written will be lost.",
+      "IMAGE_OPEN_FAILED": "Couldn't open that image",
+      "IMAGE_UNSUPPORTED": "Unsupported image",
+      "IMAGE_TYPES": "Use a JPG, PNG or WebP image.",
+      "IMAGE_TOO_LARGE": "Image too large",
+      "IMAGE_MAX_SIZE": "The screenshot must be under 3 MB.",
+      "THANKS": "Thanks for the report",
+      "STEPS_PLACEHOLDER": "1. Go to...\n2. Click...\n3. Observe...",
+      "ADD_SCREENSHOT": "+ Add a screenshot"
+    },
+    "AUTH": {
+      "SIGN_IN": "Sign in",
+      "SIGN_UP": "Sign up",
+      "SIGN_IN_SUBTITLE": "Sign in to manage your meetings.",
+      "EMAIL_PASSWORD_REQUIRED": "Enter your email and password.",
+      "PLAY_SERVICES_UNAVAILABLE": "Google Play Services is not available on this device.",
+      "FORGOT_PASSWORD_LINK": "Forgot password?",
+      "BACK_TO_SIGN_IN": "Back to sign in",
+      "CHECK_EMAIL_TITLE": "Check your email",
+      "RESET_LINK_SENT": "If an account exists for {{email}}, we've sent a link to reset your password. Open it on this phone or any computer to choose a new one, then come back and sign in.",
+      "RESET_LINK_NOTE": "Didn't get it? Check your spam folder. Accounts created with \"Continue with Google\" don't have a password — sign in with Google instead.",
+      "SEND_LINK_AGAIN": "Send the link again",
+      "RESET_TITLE": "Reset your password",
+      "RESET_SUBTITLE": "Enter your account's email and we'll send you a link to choose a new password.",
+      "CHOOSE_NEW_PASSWORD": "Choose a new password",
+      "RESET_LINK_INCOMPLETE": "This reset link is incomplete. Request a new one from \"Forgot password?\" on the sign-in screen.",
+      "FOR_EMAIL": "For {{email}}",
+      "PASSWORD_UPDATED_TITLE": "Password updated",
+      "PASSWORD_UPDATE_FAILED": "Failed to update password",
+      "CREATE_ACCOUNT_TITLE": "Create your account",
+      "SIGNUP_SUBTITLE": "We'll email you a code to verify your address.",
+      "PASSWORD_HINT": "At least 8 characters",
+      "CONFIRM_PASSWORD": "Confirm password",
+      "CREATE_ACCOUNT": "Create account",
+      "SIGNUP_CODE_SENT": "Enter the 6-digit code we sent to {{email}}. It expires in 10 minutes.",
+      "VERIFICATION_CODE": "Verification code",
+      "VERIFY_AND_SIGN_UP": "Verify and sign up",
+      "CHANGE_DETAILS": "Change details",
+      "SIGN_IN_WITH_NEW_PASSWORD": "Sign in with your new password."
+    },
+    "TEAM_INVITE": {
+      "KICKER": "Team invitation",
+      "THE_TEAM": "the team",
+      "A_TEAM": "A team",
+      "SOMEONE": "Someone",
+      "INVITED_AS_ADMIN": "{{inviter}} invited you to join as an admin.",
+      "INVITED_AS_MEMBER": "{{inviter}} invited you to join as a member.",
+      "ACCEPTED_TITLE": "Invite accepted",
+      "JOINED": "You've joined {{team}}.",
+      "JOINED_SIGN_IN": "You've joined {{team}}. Sign in to see it.",
+      "DECLINED_TITLE": "Invite declined"
+    },
+    "TEAMS": {
+      "CREATE_FAILED": "Failed to create team",
+      "NEW_LINK": "+ New",
+      "CREATE_FIRST": "+ Create your first team"
+    },
+    "TEAM_DETAIL": {
+      "LOAD_FAILED": "Failed to load team",
+      "RENAME_FAILED": "Failed to rename team",
+      "INVITE_SENT_TO": "An invite was sent to {{email}}.",
+      "TRANSFER_TEXT": "{{name}} will become the owner of {{team}}. You'll become an admin.",
+      "TRANSFER": "Transfer",
+      "TRANSFERRING": "Transferring…",
+      "DELETE_TITLE": "Delete this team?",
+      "LEAVE_TITLE": "Leave this team?",
+      "LEAVE_TEXT": "You'll lose access to {{team}}.",
+      "STAY": "Stay",
+      "OWNER_ONLY_RENAME": "Only the team owner can rename the team.",
+      "INVITE_MEMBER": "Invite a member"
+    },
+    "NOTIFICATIONS": {
+      "LOAD_FAILED": "Failed to load notifications",
+      "EARLIER": "Earlier",
+      "EMPTY": "You're all caught up — no notifications yet.",
+      "CHANNEL_DESCRIPTION": "New meeting requests and schedule changes",
+      "NEW_COUNT": "{{n}} new notifications"
+    },
+    "AVAILABILITY": {
+      "LOAD_FAILED": "Failed to load availability",
+      "FIX_DAYS_TITLE": "Fix these days",
+      "SUBTITLE": "Set the days and hours you're bookable. {{active}} of 7 days active.",
+      "START": "Start",
+      "END": "End",
+      "START_TIME": "Start time",
+      "END_TIME": "End time",
+      "INVALID_RANGE": "Needs a valid time range"
+    },
+    "UPGRADE": {
+      "LOAD_FAILED": "Couldn't load your plan",
+      "FOOTNOTE": "Plan changes and payments are handled on the Calbook website. Pull down to refresh after changing your plan there.",
+      "YOUR_PLAN": "Your plan",
+      "EXPIRES_SOON": "Expires soon: {{date}}",
+      "NEXT_PLAN": "Next: {{plan}}, starts {{starts}} · ends {{ends}}",
+      "YEARLY_SAVING": "Save {{percent}}% vs monthly"
+    },
+    "PLANS": {
+      "EVENTS_PER_MONTH": "{{n}} Events / month",
+      "TASKS_PER_MONTH": "{{n}} Tasks / month",
+      "ONE_ON_ONE_ONLY": "One-on-One meetings only",
+      "SOLO_ONLY": "Solo use only — no team members",
+      "BOOKING_PAGE": "Online Booking Page",
+      "UP_TO_TEAMS": "Up to {{n}} Teams",
+      "MEMBERS_PER_TEAM": "{{n}} Members per Team",
+      "PRO_MEETING_TYPES": "One-on-One, Group, Task & Appointment types",
+      "MULTI_HOST": "Multi-host bookings (round-robin/collective)"
+    },
+    "EVENTS": {
+      "NO_LINK_TITLE": "No link available",
+      "LINK_COPIED_TITLE": "Link copied",
+      "DELETE_TITLE": "Delete event?",
+      "THIS_EVENT": "This event",
+      "NEW_LINK": "+ New",
+      "SEARCH_PLACEHOLDER": "Search events",
+      "EMPTY": "No events found.",
+      "CREATE_FIRST": "+ Create your first event",
+      "UNTITLED": "Untitled event",
+      "PENDING_ONE": "{{n}} pending request",
+      "PENDING_OTHER": "{{n}} pending requests"
+    },
+    "MEETINGS": {
+      "CANCEL_TITLE": "Cancel meeting?",
+      "THIS_MEETING": "This meeting",
+      "DELETE_TITLE": "Delete meeting?",
+      "NEW_LINK": "+ New",
+      "SEARCH_PLACEHOLDER": "Search meetings",
+      "EMPTY": "No meetings found.",
+      "CREATE_FIRST": "+ Create your first meeting",
+      "UNTITLED": "Untitled meeting",
+      "GUESTS_ONE": "{{n}} guest",
+      "GUESTS_OTHER": "{{n}} guests"
+    },
+    "BOOKINGS": {
+      "CANCEL_TITLE": "Cancel this booking?",
+      "THIS_BOOKING": "This booking",
+      "SEARCH_PLACEHOLDER": "Search bookings",
+      "UNTITLED": "Untitled booking",
+      "HOSTED_BY": "Hosted by {{name}}"
+    },
+    "ANALYTICS": {
+      "PERIOD_7D": "7 days",
+      "PERIOD_30D": "30 days",
+      "PERIOD_90D": "90 days",
+      "PERIOD_12M": "12 months",
+      "LAST_90_DAYS": "Last 90 Days",
+      "LOAD_FAILED": "Failed to load analytics",
+      "SUBTITLE": "How your meetings and bookings are going.",
+      "NO_DATA": "No data.",
+      "MEETINGS_OVER_TIME": "Meetings over time",
+      "NO_MEETINGS": "No meetings in this period",
+      "NO_EVENT_TYPES": "No event types yet"
+    },
+    "CALENDAR": {
+      "NO_EVENTS": "No events",
+      "NO_EVENTS_DAY": "No events for this day.",
+      "UNTITLED": "Untitled",
+      "HOSTING": "Hosting",
+      "GUEST": "Guest",
+      "YOU": "You"
+    },
+    "DURATION": {
+      "MINUTES": "{{n}} min"
+    },
+    "FORM": {
+      "TITLE": "Title",
+      "DESCRIPTION": "Description",
+      "GUESTS": "Guests"
+    },
+    "MEETING_FORM": {
+      "DATE_TIME_REQUIRED": "Pick a date and a start time",
+      "TIME_ZONE_HINT": "Time is in the time zone selected below.",
+      "DESCRIPTION_PLACEHOLDER": "What's this meeting about?",
+      "REMINDER": "Reminder",
+      "REMINDER_HINT": "Before the meeting starts."
+    },
+    "EVENT_FORM": {
+      "CREATE_FAILED": "Failed to create event",
+      "DESCRIPTION_PLACEHOLDER": "What's this event about?",
+      "NO_TEAMS": "Just you — you're not part of any team yet.",
+      "NO_MEMBERS": "No team members found.",
+      "BRAND_NAME_PLACEHOLDER": "Shown instead of your name on the booking page",
+      "LOGO_TYPES": "Use a PNG, JPEG, WebP or SVG image.",
+      "LOGO_MAX_SIZE": "The logo must be under 200 KB. Try a smaller or simpler image.",
+      "NO_LOGO": "No logo",
+      "CHANGE_IMAGE": "Change image",
+      "CHOOSE_IMAGE": "Choose image",
+      "KEEP_LOGO": "Keep current logo",
+      "LOGO_HINT": "PNG, JPEG, WebP or SVG, max 200 KB"
+    },
+    "BOOKING_PAGE": {
+      "LOAD_FAILED": "This event could not be loaded.",
+      "SELECT_TIME_TITLE": "Select a time",
+      "SELECT_TIME_MESSAGE": "Please select one slot to book.",
+      "REQUEST_SENT_TITLE": "Request sent",
+      "REQUESTS_SENT": "Booking requests sent: {{n}}",
+      "SOME_FAILED": "Some requests failed",
+      "BOOKING_FAILED": "Booking failed",
+      "GO_BACK": "Go back",
+      "SENDING": "Sending your request…",
+      "PENDING_TITLE": "Pending Approval",
+      "PENDING_TEXT": "A meeting request is currently being sent to the host. Once approved, the meeting details will be shared with you via email.",
+      "MEETING_TIME": "Meeting Time",
+      "HOST": "Host",
+      "DESCRIPTION": "Meeting Description",
+      "NO_DESCRIPTION": "No description.",
+      "SELECTED_SLOT": "Selected Slot",
+      "SLOTS_TITLE": "Select Available Time Slots",
+      "NO_DATE": "No date selected",
+      "NO_SLOTS": "No slots available",
+      "CONFIRM_TITLE": "Confirm Your Booking",
+      "CONFIRM_SUBTITLE": "Please fill out your details to finalize the meeting.",
+      "NAME_LABEL": "What is your name?",
+      "NAME_REQUIRED": "Please enter guest name",
+      "EMAIL_LABEL": "What is your email?",
+      "EMAIL_REQUIRED": "Please enter email",
+      "PRIVACY_NOTE": "By proceeding, you agree to our Privacy Policy",
+      "CONFIRM_BUTTON": "Confirm Booking"
+    },
+    "ENTRY": {
+      "SUBTITLE": "Enter an event's slug and id to open its public booking page.",
+      "SLUG_LABEL": "Event slug",
+      "SLUG_PLACEHOLDER": "e.g. team-standup",
+      "ID_LABEL": "Event id",
+      "ID_PLACEHOLDER": "e.g. 12",
+      "OPEN": "Open booking page",
+      "SIGN_IN_LINK": "Manage your meetings — sign in"
+    },
+    "REMINDERS": {
+      "STARTS_IN": "Starts in {{when}}, at {{time}}",
+      "MINUTE_ONE": "{{n}} minute",
+      "MINUTE_OTHER": "{{n}} minutes",
+      "HOUR_ONE": "{{n}} hour",
+      "HOUR_OTHER": "{{n}} hours",
+      "DAY_ONE": "{{n}} day",
+      "DAY_OTHER": "{{n}} days",
+      "WEEK_ONE": "{{n}} week",
+      "WEEK_OTHER": "{{n}} weeks",
+      "CHANNEL_NAME": "Meeting reminders",
+      "CHANNEL_DESCRIPTION": "Before your meetings start, at the time set on each meeting"
+    }
+  }
+}
